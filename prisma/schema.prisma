@@ -61,12 +61,12 @@ model Athlete {
   name           String
   dob            DateTime
   age            Int
+  gender         String
   weight         Float
   weightCategory String
   aadharNumber   String
   mobile         String
-  photoUrl       String
-  aadharUrl      String
+  
   eventId        Int
   gymId          Int
   disciplines    Discipline[] @relation("AthleteDisciplines")
